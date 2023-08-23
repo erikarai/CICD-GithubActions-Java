@@ -40,7 +40,7 @@ jobs:
       - name: 9. Infrastructure Provisioning(Plan)
         run: terraform apply -auto-approve -input=false
 
-      - name: 10. Deploy and Run Project
+      - name: 10. Deploy and Run Project (Running)
         run: |
           cd target/classes
           java com.mycompany.app.Calculator
